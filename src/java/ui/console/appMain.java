@@ -22,7 +22,7 @@ public class appMain {
         System.out.println(ConexaoBD.testarConexao());
 
         // Inserir pavilhão
-        Pavilhao p = new Pavilhao(0, "Principal", "A");
+        Pavilhao p = new Pavilhao( "Principal Test", "123");
         estrutura.inserirPavilhao(p);
 
         // Listar reservas com JOIN

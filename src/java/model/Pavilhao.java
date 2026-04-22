@@ -10,6 +10,13 @@ public class Pavilhao {
     public Pavilhao() {
     }
 
+    public Pavilhao(String designacao, String numero) {
+        this.designacao = designacao;
+        this.numero = numero;
+    }
+
+    
+    
     public Pavilhao(int id, String designacao, String numero) {
         this.id = id;
         this.designacao = designacao;

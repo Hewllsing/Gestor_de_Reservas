@@ -9,9 +9,17 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Gestor</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Gestor</h1>
+        <h3>Selecione o que desejas gerir:</h3>
+        
+        <button> 
+            <a href="/GestaoDeReservas/gestorEstrutura.jsp">Estrutura</a>
+        </button>
+        <button> 
+            <a href="/GestaoDeReservas/gestorReserva.jsp">Reservas</a>
+        </button>
     </body>
 </html>
