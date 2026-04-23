@@ -20,7 +20,15 @@
         <c:forEach var="pavilhao" items="${listaPavilhoes}" varStatus="pos">
             <p>Designação: ${pavilhao.designacao}</p>
             <p>Numero: ${pavilhao.numero}</p>
+            
+            <!--
+            <form action="GestorEstruturaServlet" method="POST">
+                <input type="hidden" name="excluirPavilhao" value="${pavilhao.id}" 
+                <input type="submit" value="Excluir Pavilhão"/>
+            </form>
             <hr>
+            
+             -->
         </c:forEach>
     </body>
 </html>
