@@ -83,7 +83,15 @@ public class GestorEstruturaServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        adicionarPavilhao(request, response);
+                String servletPath = request.getServletPath();
+
+        switch (servletPath) {
+            case "/adicionarPavilhao":
+                adicionarPavilhao(request, response);
+                break;
+
+            default:
+        }
     }
 
     @Override
